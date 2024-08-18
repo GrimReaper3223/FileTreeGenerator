@@ -1,4 +1,8 @@
 # FileTreeGenerator
+
+![SGCAM_18082024_183000749](https://github.com/user-attachments/assets/9202f090-666d-4781-a2e4-4b476c200a60)
+
+
 ## What is This Application For?
 This application allows an arbitrary number of files and directories to be generated recursively for file system testing purposes.
 
