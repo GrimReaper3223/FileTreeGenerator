@@ -2,14 +2,12 @@
 
 ![SGCAM_18082024_183000749](https://github.com/user-attachments/assets/9202f090-666d-4781-a2e4-4b476c200a60)
 
-Version required to run this application: `Java 22`
+Version required to run this application: `Java 21`
 
 ## What is This Application For?
 This application allows an arbitrary number of files and directories to be generated recursively for file system testing purposes.
 
 The application proposes to testers and developers the recursive creation of files and directories in an automatic and simple way, without having to create one directory and file at a time, which can be very tedious and end up diverting attention from what really matters: testing desired functionalities in the file system.
-
-The functionality to generate files is not yet implemented. This first version of the project relies on generating only directories. The next version will also generate custom files.
 
 ## How Does the Application Work?
 The application must be run using the following command in your terminal/cmd:
@@ -31,10 +29,10 @@ Finally, a list of file extensions is requested, where each extension, separated
 ## Explaining the Logic and Mechanics of the Application
 ### File and Directory Generation Syntax
 The syntax for generating files is as follows:
->`FileX-Y` -->  Where Filet is the name of the prototype file, X is the number of the current depth layer that this file is being generated and Y is the number of that generated file (if it is file 1, 2, 3...)
+>`File$-#` -->  Where File is the name of the prototype file, $ is the number of the current depth layer that this file is being generated and # is the number of that generated file (if it is file 1, 2, 3...)
 
 The syntax for generating directories follows the same pattern as that for files: 
->`DirX-Y` -->   Same logical explanation for the syntax of the generated files
+>`Dir$-#` -->   Same logical explanation for the syntax of the generated files
 
 ### Directory Generation
 Directories are generated using depth and extendability logic.
@@ -98,16 +96,14 @@ The example was properly spaced so that it was perfectly readable.
 If our example had an arbitrary file limit for generation, all folders (even empty ones) could or could not contain files.
 
 ## Final Considerations
-Files are not generated infinitely, but rather as long as there are directories. _not yet implemented_
+Files are not generated infinitely, but rather as long as there are directories.
 
-The number of files that will be generated is arbitrary, highly dependent on the probabilistic algorithm. _not yet implemented_
+The number of files that will be generated is arbitrary, highly dependent on the probabilistic algorithm.
 
 It would not be a good idea to generate a large number of directories, since they are generated using depth and extendability logic.
 
 The graph of this logic can be read by imagining 2 axes: X and Y.
 X grows from bottom to top, while Y grows from left to right.
 X can be related to depth and Y can be related to extensibility (number of directories created at a given level).
-
-**FILE GENERATION IS NOT YET AVAILABLE**
 
 Note: Please use this application carefully and responsibly and always provide the correct data, to prevent the application from breaking and stopping running [EXCEPTIONS HAVE NOT YET BEEN HANDLED]
