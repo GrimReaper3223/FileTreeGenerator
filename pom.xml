@@ -5,17 +5,19 @@
 
 	<groupId>dsl.utils</groupId>
 	<artifactId>FileTreeGenerator</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>FileTreeGenerator</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
+		<java.compiler.version>19</java.compiler.version>
+		<java.mainClass>com.dsl.ftg.generator.Generator</java.mainClass>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>21</maven.compiler.source>
-		<maven.compiler.target>21</maven.compiler.target>
-		<maven.compiler.release>21</maven.compiler.release>
+		<maven.compiler.source>${java.compiler.version}</maven.compiler.source>
+		<maven.compiler.target>${java.compiler.version}</maven.compiler.target>
+		<maven.compiler.release>${java.compiler.version}</maven.compiler.release>
 	</properties>
 
 	<dependencies>
@@ -57,8 +59,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
 				<configuration>
-					<source>21</source>
-					<target>21</target>
+					<source>${java.compiler.version}</source>
+					<target>${java.compiler.version}</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -69,7 +71,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>com.dsl.ftg.generator.Generator</mainClass>
+							<mainClass>${java.mainClass}</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

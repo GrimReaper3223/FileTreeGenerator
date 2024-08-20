@@ -1,2 +1,5 @@
-/home/Deiv/Projects/workspace-1/FileTreeGenerator/src/main/java/com/dsl/ftg/generator/Engine.java
+/home/Deiv/Projects/workspace-1/FileTreeGenerator/src/main/java/com/dsl/ftg/engine/EntityGenerator.java
+/home/Deiv/Projects/workspace-1/FileTreeGenerator/src/main/java/com/dsl/ftg/engine/GeneratedEntitiesHistogram.java
+/home/Deiv/Projects/workspace-1/FileTreeGenerator/src/main/java/com/dsl/ftg/engine/InitInstances.java
+/home/Deiv/Projects/workspace-1/FileTreeGenerator/src/main/java/com/dsl/ftg/engine/ProcessData.java
 /home/Deiv/Projects/workspace-1/FileTreeGenerator/src/main/java/com/dsl/ftg/generator/Generator.java

@@ -1,2 +1,8 @@
+com/dsl/ftg/engine/GeneratedEntitiesHistogram.class
+META-INF/maven/dsl.utils/FileTreeGenerator/pom.xml
+com/dsl/ftg/engine/InitInstances.class
+com/dsl/ftg/engine/ProcessData.class
 com/dsl/ftg/generator/Generator.class
-com/dsl/ftg/generator/Engine.class
+com/dsl/ftg/engine/EntityGenerator.class
+META-INF/MANIFEST.MF
+META-INF/maven/dsl.utils/FileTreeGenerator/pom.properties
