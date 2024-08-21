@@ -1,6 +1,10 @@
 # FileTreeGenerator
 
-![SGCAM_18082024_183000749](https://github.com/user-attachments/assets/9202f090-666d-4781-a2e4-4b476c200a60)
+Running application:
+![SGCAM_20082024_212349482](https://github.com/user-attachments/assets/18a77618-b796-4bd0-b8ba-d0f6621a0a67)
+
+Result:
+![SGCAM_20082024_212637232](https://github.com/user-attachments/assets/7005f2ab-9192-4657-94d1-333fc9fb287b)
 
 Version required to run this application: `Java 19`
 
